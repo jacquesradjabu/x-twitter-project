@@ -1,0 +1,26 @@
+.trends{
+    width: 30%;
+}
+
+#search{
+    display: flex ;
+    height: 20px;
+    background: transparent;
+    border-radius: 60px;
+    background: rgb(142, 129, 129);
+}
+
+.Settings{
+    display: flex;
+    justify-content: space-between;
+}
+.Tweets{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.More{
+    border-radius: 20px;
+    background-color: rgb(31, 36, 40);
+}

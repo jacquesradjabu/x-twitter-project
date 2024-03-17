@@ -6,7 +6,7 @@ export default function TweetEditorButtons(){
     return(
         <div className='tweet-editor-buttons'>
         < TweetEditorActions />
-        <Button title="Tweet"/>
+        <Button/>
         </div>
         
     );

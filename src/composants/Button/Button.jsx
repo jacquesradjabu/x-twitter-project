@@ -1,4 +1,4 @@
-export default function Button ({title}){
+export default function Button (){
     const btnStyles = {
         textTransform: 'capitalize',
         padding: '.7rem 1.5rem',
@@ -9,6 +9,8 @@ export default function Button ({title}){
         fontSize: '1rem'
     }
     return(
-        <button classeName="button" style={btnStyles}>{title}</button>
+        <>
+            <button classeName="button" style={btnStyles}>Tweet</button>
+        </>
     )
 }
