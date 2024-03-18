@@ -13,6 +13,7 @@
 .Settings{
     display: flex;
     justify-content: space-between;
+   
 }
 .Tweets{
     display: flex;
@@ -21,6 +22,18 @@
 }
 
 .More{
+  background-color: rgb(71, 68, 68); 
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.Verified{
+    display: flex;
+    
+}
+
+.parent{
+    background-color: rgb(71, 68, 68); 
     border-radius: 20px;
-    background-color: rgb(31, 36, 40);
+    margin: 10px;
 }

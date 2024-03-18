@@ -2,6 +2,10 @@ import './Trends.css'
 import Search from '../../public/icons/Search.svg'
 import Settings from '../../public/icons/Settings.svg'
 import More from '../../public/icons/More.svg'
+import Times from '../../public/images/times.png'
+import Verified from '../../public/icons/Verified.svg'
+import Cnn from '../../public/images/cnn.png'
+import TwetterLog from '../../public/images/twitter-logo.png'
 import { Link } from 'react-router-dom'
 export default function Trends(){
     return(
@@ -13,16 +17,16 @@ export default function Trends(){
         </div>
 
         <div className='Settings'>
-            <h1>Trends for you</h1>
+            <h3>Trends for you</h3>
             <img src={Settings} alt="" />
-        </div>
+        </div>cd
 
         <div className='More'>
 
        <div className='Tweets'>
             <div>
             <p>Trending in turkey</p>
-            <h1>#SQUID</h1>
+            <h3>#SQUID</h3>
             <p>2,066 Tweets</p>
             </div>
 
@@ -35,7 +39,7 @@ export default function Trends(){
         <div className='Tweets'>
             <div>
             <p>Trending in turkey</p>
-            <h1>#SQUID</h1>
+            <h3>#SQUID</h3>
             <p>2,066 Tweets</p>
             </div>
 
@@ -47,7 +51,7 @@ export default function Trends(){
         <div className='Tweets'>
             <div>
             <p>Trending in turkey</p>
-            <h1>#SQUID</h1>
+            <h3>#SQUID</h3>
             <p>2,066 Tweets</p>
             </div>
 
@@ -59,7 +63,7 @@ export default function Trends(){
         <div className='Tweets'>
             <div>
             <p>Trending in turkey</p>
-            <h1>#SQUID</h1>
+            <h3>#SQUID</h3>
             <p>2,066 Tweets</p>
             </div>
 
@@ -71,10 +75,48 @@ export default function Trends(){
         <Link>Show More</Link>
    </div>
 
-        <div className=''>
-            <h1></h1>
-            <button className="button">Follow</button>
+        <div className='parent'>
+            <h2>Who to Follow</h2>
+
+            <div className='Verified'>
+                <img src={ Times} alt="" />
+                <div>
+                   <h4> The new york Times</h4>
+                   
+                    <img src={Verified} alt="" />
+                
+                   <p>@nytimes</p>
+                   
+                </div>
+                <button className="button">Follow</button>
+            </div>
+
+            <div className='Verified'>
+                <img src={ Cnn} alt="" />
+                <div>
+                   <h3> CNN</h3>
+                   
+                    <img src={Verified} alt="" />
+                
+                   <p>@CNN</p>
+                   
+                </div>
+                <button className="button">Follow</button>
+            </div>
+
+            <div className='Verified'>
+                <img src={TwetterLog} alt="" />
+                <div>
+                   <h3> Twetter</h3>
+                    <img src={Verified} alt="" />
+                   <p>@Twetter</p>
+                </div>
+                <button className="button">Follow</button>
+            </div>
+                
         </div>
+        <p> Terms of service privacy policy cokie policy</p>
+        <p>Imprint ads info More--- @ 2021 Twitter,inc</p>
 </div>
        
         </>
