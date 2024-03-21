@@ -94,15 +94,17 @@ body{
     background-color: transparent;
     border: none;
 }
-.button {
-    text-transform: capitalize;
-    padding: .7rem 1.5rem;
-    border: none;
-    border-radius: 50px;
-    background-color: #1D9BF0;
-    color: white;
-    font-size: 1rem;
-}
+    .button {
+        text-transform: capitalize;
+        padding: 0.7rem 1.5rem;
+        border: none;
+        border-radius: 50px;
+        background-color: #3f77b0;
+        color: rgb(250, 247, 247);
+        font-size: 1rem;
+        height: 40px;
+    }
+
 .tweet{
     display: flex;
     justify-content: flex-start;
