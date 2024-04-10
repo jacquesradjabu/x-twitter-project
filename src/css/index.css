@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+   /* reset */
+
+   *,
+   *::after,
+   *::before {
+      font-family: "Inter", sans-serif;
+   }
+   html {
+      background: #000;
+      color: #fff;
+   }
+
+   .main-container {
+      @apply w-full flex flex-col flex-wrap md:max-w-[558px];
+   }
+   
+   /* primary btn */
+
+   .btn {
+      @apply h-10 pl-6 pr-6 rounded-full ;
+   }
+
+   .btn-primary {
+      @apply bg-[#1D9BF0] hover:bg-sky-600;
+   }
+
+   .btn-follow {
+      @apply bg-[#fff] hover:bg-slate-300;
+   }
+
+   .btn-outline {
+      @apply p-0 m-0 rounded-none bg-transparent text-yellow-200 hover:decoration-black decoration-red-100;
+   }
+
+   .full {
+      @apply w-full;
+   }
+}
