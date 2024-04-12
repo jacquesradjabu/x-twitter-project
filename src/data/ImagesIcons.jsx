@@ -1,5 +1,5 @@
 import imgPost from '../assets/images/img-post.png';
-import birusha from '../assets/images/birusha.jpg';
+import profilePhoto from '../assets/images/profile-Photo.png';
 import cnn from '../assets/images/cnn.png';
 import twitterLogo from '../assets/images/twitter-logo.png';
 import times from '../assets/images/times.png';
@@ -18,7 +18,7 @@ import verified from '../assets/icons/Verified.svg';
 
 
 export {
-   birusha,
+   profilePhoto,
    timelineProp,
    gif,
    emoji,
